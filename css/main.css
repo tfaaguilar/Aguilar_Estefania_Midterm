@@ -23,6 +23,7 @@ body {
 .container {
     width: 1200px;
     margin: 0 auto;
+    background-color: #fbfcfc;
 }
 
 .box-color {
@@ -127,6 +128,17 @@ body {
     grid-column: span 3;
 }
 
+#clients {
+    margin-top: 80px;
+    display: flex;
+    text-align: center;
+    background-color: #fff;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 50%;
+    
+}
+
 /* 6. News */
 
 #hero2 {
@@ -165,7 +177,15 @@ body {
 }
 
 .hero-image3 {
-    grid-column: 2/4;
+    grid-column: 2/12;
+    width: 400px;
+    height: 400px;
+    grid-row: 1/3; 
+    
+}
+
+.hero-image4 {
+    grid-column: 7/12;
     width: 400px;
     height: 400px;
     grid-row: 1/3; 
@@ -175,8 +195,8 @@ body {
 #visit-us {
     width: 500px;
     height: 300px;
-    grid-column: 7/-1;
-    grid-row: 1/6;
+    grid-column:2/12;
+    grid-row: 1/3;
     margin-top: 100px;
 }
 
@@ -187,6 +207,15 @@ body {
     width: 300px;
     margin-bottom: 70px;
     align-self: end;
+}
+
+#tag-line4 {
+    grid-column: 3/-1;
+    grid-row: 1/5;
+    height: 80px;
+    width: 300px;
+    margin-bottom: 70px;
+    align-self: center;
 }
 
 
