@@ -75,12 +75,12 @@ a {
 }
 
 #header-nav ul li a {
-    color: rgb(125, 5, 129);
+    color: rgb(63, 5, 129);
 }
 
 #header-nav ul li a:hover {
-    color: #0653ac;
-    border-bottom: 5px solid #c957c9;
+    
+    border-bottom: 5px solid #5b0da3;
     padding-bottom: 3px;
 }
 
@@ -99,7 +99,7 @@ a {
 }
 
 #log-in-top:hover {
-    background-color: #d3fc9e;
+    background-color: #bf9efc;
 }
     
 
@@ -146,7 +146,7 @@ a {
 
 #new-flavours {
     margin-top: 50px;
-    background-color: #dbf7cf;
+    background-color: #ede7f8;
 }
 
 .hero-image2 {
@@ -171,7 +171,7 @@ a {
 /* 8. Recipes */
 
 #recipes {
-    background-color: #c6e0e2;
+    background-color:#ede7f8;
 }
 
 .hero-image3 {
@@ -180,6 +180,8 @@ a {
     width: 350px;
     height: 400px;
     grid-row: 1/3;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 #tag-line3 {
@@ -194,7 +196,7 @@ a {
 }
 
 #more-recipes:hover {
-    background-color: #e5f796;
+    background-color: #a896f7;
 }
 
 /* 9. Clients */
@@ -211,7 +213,7 @@ a {
 
 #location {
     margin-top: 50px;
-    background-color: #ecddfc;
+    background-color: #ede7f8;
 }
 
 .hero-image4 {
@@ -263,7 +265,7 @@ a {
 /* 1. Contact form */
 
 .contact-container {
-    background-color: #effcd8;
+    background-color: #ede7f8;
     margin-left: 15px;
     margin-right: 15px;
 }
@@ -307,7 +309,7 @@ a {
 
 input, textarea {
     padding: 22px;
-    border: 2px solid #abf3c7;
+    border: 2px solid #8e6fc7;
     background-color: #f7f7f7;
     margin-bottom: 30px;
     
@@ -320,7 +322,7 @@ input, textarea {
 input[type="submit"] {
     width: 100px;
     padding: 16px 32px;
-    background-color: #84a529;
+    background-color: #9e62ff;
     color: #fff;
     border: none;
     transition: all 200ms ease-in;
@@ -328,6 +330,6 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-    background-color: #5dcaaa;
+    background-color: #4b2d64;
     
 }
