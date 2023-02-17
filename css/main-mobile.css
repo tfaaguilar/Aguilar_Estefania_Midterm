@@ -55,31 +55,66 @@ a {
 /* 3. Header */
 
 #main-header {
-    margin-top: 20px;
     position: sticky;
-	top: 0px;
 	background-color: #fff;
-	padding-top: 10px;
-	padding-bottom: 10px;
 }
 
 #header-logo {
-    grid-column: 1/4;
+    grid-column: 2/4;
 }
 
 #header-nav {
-    grid-column: 3/9;
-    
+    grid-column: 1/4;
 }
 
-#header-nav ul li  {
-    
-    padding: 6px; 
+#header-nav label img {
+    background-image: url(../images/burger.svg) center no-repeat;
+    border: 0px;
+	width: 50px;
+	height: 20px;
+	transition: all .5s ease;
+    margin-top: 10px;
+    cursor: pointer;
 }
 
-#header-nav ul li a {
-    color: rgb(63, 5, 129);
+#header-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0; 
 }
+
+#header-nav li a {
+    color: rgb(71, 35, 112);
+    display: block;
+    padding: 10px 0 10px 0;
+    text-align: center;
+}
+
+#header-nav li {
+    border-bottom: 1px solid #efefef;
+}
+
+#header-nav li:first-child {
+    border-top: 1px solid #efefef;
+}
+
+#header-nav li:last-child {
+    margin-bottom: 10px;
+}
+
+#burger-con, #header-nav input {
+    display: none;
+}
+
+#header-nav input:checked ~ #burger-con {
+    display: block;
+}
+
+#header-nav input:checked ~ label img{
+    transform: rotate(90deg);
+}
+
+
 
 #header-nav ul li a:hover {
     
