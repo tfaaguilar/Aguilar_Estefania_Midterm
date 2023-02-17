@@ -4,10 +4,13 @@
     2. Grid
     3. Header
     4. Main Hero Image
-    5. Features
-    6. News
-    7. Visit us
-    8. Footer
+    5. Features 1
+    6. New Flavours
+    7. Features 2
+    8. Recipes
+    9. Clients
+    10. Visit us
+    11. Footer
 */
 
 /* 1. General Styles */
@@ -17,7 +20,6 @@ body {
     font-family: 'comfortaa', arial, sans-serif;
     font-size: 15px;
     text-align: justify;
-    
 }
 
 .container {
@@ -26,16 +28,7 @@ body {
     background-color: #fbfcfc;
 }
 
-.box-color {
-    background-color: rgb(239, 181, 241);
-    color: rgb(17, 16, 16);
-    text-align: center;
-}
-
-.box-color2 {
-    background-color: #a7a7a7;
-    text-align: center;
-}
+/* 2. Grid */
 
 .grid {
     display: grid;
@@ -45,162 +38,111 @@ body {
     grid-column-gap: 30px;
 }
 
-/* 2. Grid */
-/* Grid used in Adobe XD*/
-
 /* 3. Header */
 
 #main-header {margin-top: 20px;}
 
 #header-logo {
-    width: 350px;
-    height: 100px;
     grid-column: 5/8;
 }
 
 #header-nav {
-    height: 70px;
-    width: 770px;
-    grid-column: 3/-1;
-    margin-top: 50px;
-    
+    grid-column: 2/9;
 }
 
 #header-nav ul li  {
     display: inline;
-    padding: 10px;
+    padding: 6px;
+}
+
+.log-in {
+    background-color: rgb(236, 221, 245);
+}
+
+#log-in-top {
+    grid-column: 9/11;
+    text-align: center;
 }
     
 
 /* 4. Main Hero Image */
 
 #hero { 
-    margin-top: 20px;
+    margin-top: 5px;
 }
 
 .hero-image {
     grid-column: 1/-1;
-    width: 1170px;
-    height: 400px;
     grid-row: 1/3;
 }
 
 #explore {
-    width: 255px;
-    height: 100px;
-    grid-column: 4/-1;
-    grid-row: 1/2;
-    margin-top: 20px;
+    grid-column: 2/4;
+    grid-row: 1/1;
+    margin-top: 50px;
+    color: #fff;
 }
 
 #tag-line {
-    grid-column: 1/-1;
+    grid-column: 10/12;
     grid-row: 2/2;
-    height: 100px;
-    width: 1170px;
-    margin-bottom: 20px;
+    margin-bottom: 80px;
     align-self: end;
-}
-
-/* 5. Features */
-
-#features-con {
-    margin-top: 30px;
-    display: flex;
+    color: #fff;
     text-align: center;
-    
 }
 
-#features-con2 {
+/* 5. Features 1 */
+
+#features1 {
     display: flex;
     margin-top: 30px;
-    text-align: center;
-    
+    text-align: center; 
 }
 
-#recipes {
-    background-color: #c6e0e2;
-}
+/* 6. New Flavours */
 
-.feature {
-    width: 270px;
-    height: 200px;
-    grid-column: span 3;
-}
-
-#clients {
-    margin-top: 80px;
-    display: flex;
-    text-align: center;
-    background-color: #fff;
-    margin-left: 15px;
-    margin-right: 15px;
-    border-radius: 50%;
-    
-}
-
-/* 6. News */
-
-#hero2 {
+#new-flavours {
     margin-top: 50px;
     background-color: #dbf7cf;
 }
 
 .hero-image2 {
     grid-column: 6/-1;
-    width: 600px;
-    height: 400px;
     grid-row: 1/3; 
-}
-
-#news {
-    width: 455px;
-    height: 200px;
-    grid-column: 1/-1;
-    grid-row: 2/6;
-    margin-top: 20px;
 }
 
 #tag-line2 {
-    grid-column: 2/-1;
-    grid-row: 1/2;
-    height: 100px;
-    width: 300px;
-    margin-bottom: 50px;
+    grid-column: 2/5;
+    margin-top: 100px;
     align-self: end;
 }
 
-/* 7. Visit us */
+/* 7. Features 2 */
 
-#hero3 {
-    margin-top: 50px;
+#features-con {
+    margin-top: 30px;
+    display: flex;
+    text-align: center;
+}
+
+/* 8. Recipes */
+
+#recipes {
+    background-color: #c6e0e2;
 }
 
 .hero-image3 {
+    border-radius: 50%;
     grid-column: 2/12;
-    width: 400px;
+    width: 350px;
     height: 400px;
-    grid-row: 1/3; 
-    
-}
-
-.hero-image4 {
-    grid-column: 7/12;
-    width: 400px;
-    height: 400px;
-    grid-row: 1/3; 
-    
-}
-
-#visit-us {
-    width: 500px;
-    height: 300px;
-    grid-column:2/12;
     grid-row: 1/3;
-    margin-top: 100px;
 }
 
 #tag-line3 {
+    margin-top: 50px;
+    text-align: center;
     grid-column: 8/-1;
     grid-row: 1/2;
     height: 80px;
@@ -209,28 +151,62 @@ body {
     align-self: end;
 }
 
+/* 9. Clients */
+
+#clients {
+    margin-top: 80px;
+    display: flex;
+    text-align: center;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+/* 10. Visit us */
+
+#location {
+    margin-top: 50px;
+    background-color: #ecddfc;
+}
+
+.hero-image4 {
+    grid-column: 7/12;
+    grid-row: 1/2; 
+    border-radius: 10%;
+}
+
+#visit-us {
+    grid-column:2/12;
+    grid-row: 1/3;
+    margin-top: 100px;
+}
+
 #tag-line4 {
     grid-column: 3/-1;
     grid-row: 1/5;
-    height: 80px;
-    width: 300px;
     margin-bottom: 70px;
     align-self: center;
+    
 }
-
-
 
 /* 8. Footer */
 
 #footer-con-full {
-    height: 100px;
-    margin-top: 50px;
+    margin-top: 40px;
+    margin-left:100px;
 }
 
 #footer-nav {
-    width: 870px;
-    height: 70px;
     margin-top: 15px;
-    grid-column: 2/10;
-    margin-left: 60px;
+    grid-column: 3/10;
+    grid-row: 1/3;
+}
+
+#footer-social {
+    grid-column: 6/12;
+    grid-row: 1/2;
+}
+
+#info-footer {
+    grid-column: 9/12;
+    grid-row: 1/3;
 }
