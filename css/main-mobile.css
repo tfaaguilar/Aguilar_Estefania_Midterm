@@ -114,8 +114,6 @@ a {
     transform: rotate(90deg);
 }
 
-
-
 #header-nav ul li a:hover {
     
     border-bottom: 5px solid #5b0da3;
@@ -300,35 +298,36 @@ a {
 
 .contact-container {
     background-color: #ede7f8;
-    margin-left: 15px;
-    margin-right: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .contact-image {
-    margin-top: 50px;
-    border-radius: 50%;
+    margin-top: 40px;
+    margin-left: 20px;
+      
 }
 
 #contact-form h2 {
-    grid-column: 5/12;
+    grid-column: 2/4;
     align-self: end;
 }
 
 #contact-form-text p {
-    grid-column: 2/12;
-    margin-bottom: 80px;
+    grid-column: 1/4;
+    margin-left: 20px;
 }
 
 #contact-form-adress-left {
-    grid-column: 2/6;
+    grid-column: 1/4;
 }
 
 #contact-form-fields-right {
-    grid-column: 6/12;
+    grid-column: 1/4;
 }
 
 #contact-form-adress-left h3 {
-    font-size: 35px;
+    font-size: 25px;
     margin-bottom: 20px;
 }
 
