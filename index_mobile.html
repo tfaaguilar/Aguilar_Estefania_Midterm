@@ -16,11 +16,13 @@
     <h1 class="hidden">Burple Sparkling Water</h1>
     <div class="container">
     <header id="main-header" class="grid">
-        <div id="header-logo">
-            <img src="images/BURPLE_Logo.svg" alt="logo">
-        </div>
         <nav id="header-nav">
             <h2 class="hidden">Main navigation</h2>
+            <input type="checkbox" id="hamburger">
+            <label for="hamburger">
+                <img src="images/burger.svg" alt="hamburger menu icon">
+            </label>
+            <div id="burger-con">
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="#">Who Are We?</a></li>
@@ -28,9 +30,12 @@
                 <li><a href="#">Responsible Bussines</a></li>
                 <li><a href="contact.html">Contact</a></li>
              </ul>
+            </div>
         </nav>
-        <a class="log-in" id="log-in-top" href="#"><h3>Sign In / Register</h3>
-        </a>
+        <div id="header-logo">
+            <img src="images/BURPLE_Logo.svg" alt="logo">
+        </div>
+        
     </header>
     <main>
         <section id="hero" class="grid">
