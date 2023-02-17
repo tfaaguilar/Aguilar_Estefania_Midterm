@@ -1,12 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Burple-contact</title>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>BURPLE-Contact</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Josefin+Sans&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c65e6bc5cc.js" crossorigin="anonymous"></script>
+        <link href="css/normalize.css" rel="stylesheet">
+        <link href="css/main.css" rel="stylesheet">
+    </head>
 <body>
-    
+    <h1 class="hidden">Burple Sparkling Water</h1>
+    <div class="container">
+    <header id="main-header" class="grid">
+        <div id="header-logo">
+            <img src="images/BURPLE_Logo.svg" alt="logo">
+        </div>
+        <nav id="header-nav">
+            <h2 class="hidden">Main navigation</h2>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Who Are We?</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Responsible Bussines</a></li>
+                <li><a href="contact.html">Contact</a></li>
+             </ul>
+        </nav>
+        <a class="log-in" id="log-in-top" href="#"><h3>Sign In / Register</h3>
+        </a>
+    </header>
+    <main>
+        <section id="hero" class="grid">
+            <img src="images/Contact_hero.jpg" class="hero-image" alt="hero-image">
+            <div id="tag-line">
+                <h2>*Support Center*</h2>
+            </div>
+        </section>
+
+        <div class="contact-container">
+        <section id="contact-form" class="grid">
+            <h2 class="hero-img-h2"><span>*Burple*</span><br> Contact</h2>
+        </section>
+
+        <div id="contact-form-text" class="grid">
+            <h2 class="hidden">Contact Intro</h2>
+            <p>Have questions or comments? Reach Support Center on the phone for any urgent matters. For other questions and concerns, please email or message us below.</p>
+        </div>
+
+        <section class="grid">
+            <h2 class="hidden">Contact Form</h2>
+            <section id="contact-form-adress-left">
+                    <h3>Burple LLC 2020</h3>
+                    <i class="fa-solid fa-map-location-dot"></i>
+                <i>555 Comissioners Rd, London ON</i><br>
+                <i class="fa-solid fa-phone"></i>
+                <i>555-5555</i><br>
+                <i class="fa-solid fa-envelope"></i>
+                <i>info@burple.com</i>
+
+                <div class="contact-image">
+                    <img src="images/Phone.jpg" alt="phone">
+                </div>
+
+            </section>
+
+            <section id="contact-form-fields-right">
+                <h3 class="hidden">Contact Form</h3>
+                <form action="email.php" method="POST" enctype="text/plain">
+                    <input name="fullName" type="text" placeholder="Write your name here">
+                    <input name="contactInfo" type="text" required placeholder="Phone number or Email">
+                    <textarea name="msg" placeholder="Leave us a message here..."></textarea>
+                    <input name="submit" type="submit" value="Send">
+                </form>
+            </section>
+        </section>
+    </div>
+    </main>
+</div>
+
+<div id="footer-con-full">
+    <div class="container-footer">
+        <footer class="grid">
+            <section>
+                <h3 class="hidden">Footer logo</h3>
+            <img src="images/BURPLE_Logo.svg" alt="logo">
+            <p>Burple LLC 2020</p>
+            </section>
+            
+            <nav id="footer-nav">
+                <h2 class="hidden">Footer Navigation</h2>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">Who Are We?</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">Responsible Bussines</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+
+            <section id="footer-social">
+            <h3 class="hidden">Social Media</h3>
+            <h3>Follow us</h3>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-google-plus"></i>
+            </section>
+
+            <section id="info-footer">
+                <h3 class="hidden">info footer</h3>
+                <i class="fa-solid fa-map-location-dot"></i>
+                <i>555 Comissioners Rd, London</i><br>
+                <i class="fa-solid fa-phone"></i>
+                <i>555-5555</i><br>
+                <i class="fa-solid fa-envelope"></i>
+                <i>info@burple.com</i>
+            </section>
+
+        </footer>
+
+    </div>
+</div>
+
+<script src="js/main.js"></script>
+
 </body>
 </html>
